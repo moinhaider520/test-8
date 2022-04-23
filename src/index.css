@@ -1,13 +1,1500 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  height: 1000vh;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.frame {
+  z-index: 1;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image_0 {
+  z-index: 0;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20001.jpg");
+}
+
+.image_1 {
+  z-index: 1;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20002.jpg");
+}
+
+.image_2 {
+  z-index: 2;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20003.jpg");
+}
+
+.image_3 {
+  z-index: 3;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20004.jpg");
+}
+
+.image_4 {
+  z-index: 4;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20005.jpg");
+}
+.image_5 {
+  z-index: 5;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20006.jpg");
+}
+
+.image_6 {
+  z-index: 6;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20007.jpg");
+}
+
+.image_7 {
+  z-index: 7;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20008.jpg");
+}
+
+.image_8 {
+  z-index: 8;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20009.jpg");
+}
+
+.image_9 {
+  z-index: 9;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20010.jpg");
+}
+
+.image_10 {
+  z-index: 10;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20011.jpg");
+}
+
+.image_11 {
+  z-index: 11;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20012.jpg");
+}
+
+.image_12 {
+  z-index: 12;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20013.jpg");
+}
+
+.image_13 {
+  z-index: 13;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20014.jpg");
+}
+
+.image_14 {
+  z-index: 14;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20015.jpg");
+}
+.image_15 {
+  z-index: 15;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20016.jpg");
+}
+
+.image_16 {
+  z-index: 16;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20017.jpg");
+}
+
+.image_17 {
+  z-index: 17;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20018.jpg");
+}
+
+.image_18 {
+  z-index: 18;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20019.jpg");
+}
+
+.image_19 {
+  z-index: 19;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20020.jpg");
+}
+.image_20 {
+  z-index: 20;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20021.jpg");
+}
+.image_21 {
+  z-index: 21;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20022.jpg");
+}
+
+.image_22 {
+  z-index: 22;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20023.jpg");
+}
+
+.image_23 {
+  z-index: 23;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20024.jpg");
+}
+
+.image_24 {
+  z-index: 24;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20025.jpg");
+}
+.image_25 {
+  z-index: 25;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20026.jpg");
+}
+
+.image_26 {
+  z-index: 26;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20027.jpg");
+}
+
+.image_27 {
+  z-index: 27;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20028.jpg");
+}
+
+.image_28 {
+  z-index: 28;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20029.jpg");
+}
+
+.image_29 {
+  z-index: 29;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20030.jpg");
+}
+
+.image_30 {
+  z-index: 30;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20031.jpg");
+}
+
+.image_31 {
+  z-index: 31;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20032.jpg");
+}
+
+.image_32 {
+  z-index: 32;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20033.jpg");
+}
+
+.image_33 {
+  z-index: 33;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20034.jpg");
+}
+
+.image_34 {
+  z-index: 34;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20035.jpg");
+}
+.image_35 {
+  z-index: 35;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20036.jpg");
+}
+
+.image_36 {
+  z-index: 36;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20037.jpg");
+}
+
+.image_37 {
+  z-index: 37;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20038.jpg");
+}
+
+.image_38 {
+  z-index: 38;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20039.jpg");
+}
+
+.image_39 {
+  z-index: 39;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20040.jpg");
+}
+
+.image_40 {
+  z-index: 40;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20041.jpg");
+}
+
+.image_41 {
+  z-index: 41;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20042.jpg");
+}
+
+.image_42 {
+  z-index: 42;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20043.jpg");
+}
+
+.image_43 {
+  z-index: 43;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20044.jpg");
+}
+
+.image_44 {
+  z-index: 44;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20045.jpg");
+}
+.image_45 {
+  z-index: 45;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20046.jpg");
+}
+
+.image_46 {
+  z-index: 46;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20047.jpg");
+}
+
+.image_47 {
+  z-index: 47;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20048.jpg");
+}
+
+.image_48 {
+  z-index: 48;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20049.jpg");
+}
+
+.image_49 {
+  z-index: 49;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20050.jpg");
+}
+
+.image_50 {
+  z-index: 50;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20051.jpg");
+}
+
+.image_51 {
+  z-index: 51;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20052.jpg");
+}
+
+.image_52 {
+  z-index: 52;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20053.jpg");
+}
+
+.image_53 {
+  z-index: 53;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20054.jpg");
+}
+
+.image_54 {
+  z-index: 54;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20055.jpg");
+}
+.image_55 {
+  z-index: 55;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20056.jpg");
+}
+
+.image_56 {
+  z-index: 56;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20057.jpg");
+}
+
+.image_57 {
+  z-index: 57;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20058.jpg");
+}
+
+.image_58 {
+  z-index: 58;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20059.jpg");
+}
+
+.image_59 {
+  z-index: 59;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20060.jpg");
+}
+
+.image_60 {
+  z-index: 60;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20061.jpg");
+}
+
+.image_61 {
+  z-index: 61;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20062.jpg");
+}
+
+.image_62 {
+  z-index: 62;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20063.jpg");
+}
+
+.image_63 {
+  z-index: 63;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20064.jpg");
+}
+
+.image_64 {
+  z-index: 64;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20065.jpg");
+}
+.image_65 {
+  z-index: 65;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20066.jpg");
+}
+
+.image_66 {
+  z-index: 66;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20067.jpg");
+}
+
+.image_67 {
+  z-index: 67;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20068.jpg");
+}
+
+.image_68 {
+  z-index: 68;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20069.jpg");
+}
+
+.image_69 {
+  z-index: 69;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20070.jpg");
+}
+.image_70 {
+  z-index: 70;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20071.jpg");
+}
+.image_71 {
+  z-index: 71;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20072.jpg");
+}
+
+.image_72 {
+  z-index: 72;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20073.jpg");
+}
+
+.image_73 {
+  z-index: 73;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20074.jpg");
+}
+
+.image_74 {
+  z-index: 74;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20075.jpg");
+}
+.image_75 {
+  z-index: 75;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20076.jpg");
+}
+
+.image_76 {
+  z-index: 76;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20077.jpg");
+}
+
+.image_77 {
+  z-index: 77;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20078.jpg");
+}
+
+.image_78 {
+  z-index: 78;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20079.jpg");
+}
+
+.image_79 {
+  z-index: 79;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20080.jpg");
+}
+
+.image_80 {
+  z-index: 80;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20081.jpg");
+}
+
+.image_81 {
+  z-index: 81;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20082.jpg");
+}
+
+.image_82 {
+  z-index: 82;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20083.jpg");
+}
+
+.image_83 {
+  z-index: 83;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20084.jpg");
+}
+
+.image_84 {
+  z-index: 84;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20085.jpg");
+}
+.image_85 {
+  z-index: 85;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20086.jpg");
+}
+
+.image_86 {
+  z-index: 86;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20087.jpg");
+}
+
+.image_87 {
+  z-index: 87;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20088.jpg");
+}
+
+.image_88 {
+  z-index: 88;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20089.jpg");
+}
+
+.image_89 {
+  z-index: 89;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20090.jpg");
+}
+
+.image_90 {
+  z-index: 90;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20091.jpg");
+}
+
+.image_91 {
+  z-index: 91;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20092.jpg");
+}
+
+.image_92 {
+  z-index: 92;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20093.jpg");
+}
+
+.image_93 {
+  z-index: 93;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20094.jpg");
+}
+
+.image_94 {
+  z-index: 94;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20095.jpg");
+}
+.image_95 {
+  z-index: 95;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20096.jpg");
+}
+
+.image_96 {
+  z-index: 96;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20097.jpg");
+}
+
+.image_97 {
+  z-index: 97;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20098.jpg");
+}
+
+.image_98 {
+  z-index: 98;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20099.jpg");
+}
+
+.image_99 {
+  z-index: 99;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20100.jpg");
+}
+
+.image_100 {
+  z-index: 100;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20101.jpg");
+}
+
+
+.image_101 {
+  z-index: 101;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20102.jpg");
+}
+
+.image_102 {
+  z-index: 102;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20103.jpg");
+}
+
+.image_103 {
+  z-index: 103;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20104.jpg");
+}
+
+.image_104 {
+  z-index: 104;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20105.jpg");
+}
+.image_105 {
+  z-index: 105;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20106.jpg");
+}
+
+.image_106 {
+  z-index: 106;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20107.jpg");
+}
+
+.image_107 {
+  z-index: 107;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20108.jpg");
+}
+
+.image_108 {
+  z-index: 108;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20109.jpg");
+}
+
+.image_109 {
+  z-index: 109;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20110.jpg");
+}
+
+.image_110 {
+  z-index: 110;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20111.jpg");
+}
+
+.image_111 {
+  z-index: 111;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20112.jpg");
+}
+
+.image_112 {
+  z-index: 112;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20113.jpg");
+}
+
+.image_113 {
+  z-index: 113;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20114.jpg");
+}
+
+.image_114 {
+  z-index: 114;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20115.jpg");
+}
+.image_115 {
+  z-index: 115;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20116.jpg");
+}
+
+.image_116 {
+  z-index: 116;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20117.jpg");
+}
+
+.image_117 {
+  z-index: 117;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20118.jpg");
+}
+
+.image_118 {
+  z-index: 118;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20119.jpg");
+}
+
+.image_119 {
+  z-index: 119;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20120.jpg");
+}
+.image_120 {
+  z-index: 120;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20121.jpg");
+}
+.image_121 {
+  z-index: 121;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20122.jpg");
+}
+
+.image_122 {
+  z-index: 122;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20123.jpg");
+}
+
+.image_123 {
+  z-index: 123;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20124.jpg");
+}
+
+.image_124 {
+  z-index: 124;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20125.jpg");
+}
+.image_125 {
+  z-index: 125;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20126.jpg");
+}
+
+.image_126 {
+  z-index: 126;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20127.jpg");
+}
+
+.image_127 {
+  z-index: 127;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20128.jpg");
+}
+
+.image_128 {
+  z-index: 128;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20129.jpg");
+}
+
+.image_129 {
+  z-index: 129;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20130.jpg");
+}
+
+.image_130 {
+  z-index: 130;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20131.jpg");
+}
+
+.image_131 {
+  z-index: 131;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20132.jpg");
+}
+
+.image_132 {
+  z-index: 132;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20133.jpg");
+}
+
+.image_133 {
+  z-index: 133;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20134.jpg");
+}
+
+.image_134 {
+  z-index: 134;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20135.jpg");
+}
+.image_135 {
+  z-index: 135;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20136.jpg");
+}
+
+.image_136 {
+  z-index: 136;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20137.jpg");
+}
+
+.image_137 {
+  z-index: 137;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20138.jpg");
+}
+
+.image_138 {
+  z-index: 138;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20139.jpg");
+}
+
+.image_139 {
+  z-index: 139;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20140.jpg");
+}
+
+.image_140 {
+  z-index: 140;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20141.jpg");
+}
+
+.image_141 {
+  z-index: 141;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20142.jpg");
+}
+
+.image_142 {
+  z-index: 142;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20143.jpg");
+}
+
+.image_143 {
+  z-index: 143;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20144.jpg");
+}
+
+.image_144 {
+  z-index: 144;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20145.jpg");
+}
+.image_145 {
+  z-index: 145;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20146.jpg");
+}
+
+.image_146 {
+  z-index: 146;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20147.jpg");
+}
+
+.image_147 {
+  z-index: 147;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20148.jpg");
+}
+
+.image_148 {
+  z-index: 148;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20149.jpg");
+}
+
+.image_149 {
+  z-index: 149;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20150.jpg");
+}
+
+.image_150 {
+  z-index: 150;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20151.jpg");
+}
+
+.image_151 {
+  z-index: 151;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20152.jpg");
+}
+
+.image_152 {
+  z-index: 152;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20153.jpg");
+}
+
+.image_153 {
+  z-index: 153;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20154.jpg");
+}
+
+.image_154 {
+  z-index: 154;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20155.jpg");
+}
+.image_155 {
+  z-index: 155;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20156.jpg");
+}
+
+.image_156 {
+  z-index: 156;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20157.jpg");
+}
+
+.image_157 {
+  z-index: 157;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20158.jpg");
+}
+
+.image_158 {
+  z-index: 158;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20159.jpg");
+}
+
+.image_159 {
+  z-index: 159;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20160.jpg");
+}
+
+.image_160 {
+  z-index: 160;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20161.jpg");
+}
+
+.image_161 {
+  z-index: 161;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20162.jpg");
+}
+
+.image_162 {
+  z-index: 162;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20163.jpg");
+}
+
+.image_163 {
+  z-index: 163;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20164.jpg");
+}
+
+.image_164 {
+  z-index: 164;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20165.jpg");
+}
+.image_165 {
+  z-index: 165;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20166.jpg");
+}
+
+.image_166 {
+  z-index: 166;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20167.jpg");
+}
+
+.image_167 {
+  z-index: 167;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20168.jpg");
+}
+
+.image_168 {
+  z-index: 168;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20169.jpg");
+}
+
+.image_169 {
+  z-index: 169;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20170.jpg");
+}
+.image_170 {
+  z-index: 170;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20171.jpg");
+}
+.image_171 {
+  z-index: 171;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20172.jpg");
+}
+
+.image_172 {
+  z-index: 172;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20173.jpg");
+}
+
+.image_173 {
+  z-index: 173;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20174.jpg");
+}
+
+.image_174 {
+  z-index: 174;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20175.jpg");
+}
+.image_175 {
+  z-index: 175;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20176.jpg");
+}
+
+.image_176 {
+  z-index: 176;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20177.jpg");
+}
+
+.image_177 {
+  z-index: 177;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20178.jpg");
+}
+
+.image_178 {
+  z-index: 178;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20179.jpg");
+}
+
+.image_179 {
+  z-index: 179;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20180.jpg");
+}
+
+.image_180 {
+  z-index: 180;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20181.jpg");
+}
+
+.image_181 {
+  z-index: 181;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20182.jpg");
+}
+
+.image_182 {
+  z-index: 182;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20183.jpg");
+}
+
+.image_183 {
+  z-index: 183;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20184.jpg");
+}
+
+.image_184 {
+  z-index: 184;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20185.jpg");
+}
+.image_185 {
+  z-index: 185;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20186.jpg");
+}
+
+.image_186 {
+  z-index: 186;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20187.jpg");
+}
+
+.image_187 {
+  z-index: 187;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20188.jpg");
+}
+
+.image_188 {
+  z-index: 188;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20189.jpg");
+}
+
+.image_189 {
+  z-index: 189;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20190.jpg");
+}
+
+.image_190 {
+  z-index: 190;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20191.jpg");
+}
+
+.image_191 {
+  z-index: 191;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20192.jpg");
+}
+
+.image_192 {
+  z-index: 192;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20193.jpg");
+}
+
+.image_193 {
+  z-index: 193;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20194.jpg");
+}
+
+.image_194 {
+  z-index: 194;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20195.jpg");
+}
+.image_195 {
+  z-index: 195;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20196.jpg");
+}
+
+.image_196 {
+  z-index: 196;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20197.jpg");
+}
+
+.image_197 {
+  z-index: 197;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20198.jpg");
+}
+
+.image_198 {
+  z-index: 198;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20199.jpg");
+}
+
+.image_199 {
+  z-index: 199;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20200.jpg");
+}
+.image_200 {
+  z-index: 200;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20201.jpg");
+}
+
+
+.image_201 {
+  z-index: 201;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20202.jpg");
+}
+
+.image_202 {
+  z-index: 202;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20203.jpg");
+}
+
+.image_203 {
+  z-index: 203;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20204.jpg");
+}
+
+.image_204 {
+  z-index: 204;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20205.jpg");
+}
+.image_205 {
+  z-index: 205;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20206.jpg");
+}
+
+.image_206 {
+  z-index: 206;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20207.jpg");
+}
+
+.image_207 {
+  z-index: 207;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20208.jpg");
+}
+
+.image_208 {
+  z-index: 208;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20209.jpg");
+}
+
+.image_209 {
+  z-index: 209;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20210.jpg");
+}
+
+.image_210 {
+  z-index: 210;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20211.jpg");
+}
+
+.image_211 {
+  z-index: 211;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20212.jpg");
+}
+
+.image_212 {
+  z-index: 212;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20213.jpg");
+}
+
+.image_213 {
+  z-index: 213;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20214.jpg");
+}
+
+.image_214 {
+  z-index: 214;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20215.jpg");
+}
+.image_215 {
+  z-index: 215;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20216.jpg");
+}
+
+.image_216 {
+  z-index: 216;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20217.jpg");
+}
+
+.image_217 {
+  z-index: 217;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20218.jpg");
+}
+
+.image_218 {
+  z-index: 218;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20219.jpg");
+}
+
+.image_219 {
+  z-index: 219;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20220.jpg");
+}
+.image_220 {
+  z-index: 220;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20221.jpg");
+}
+.image_221 {
+  z-index: 221;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20222.jpg");
+}
+
+.image_222 {
+  z-index: 222;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20223.jpg");
+}
+
+.image_223 {
+  z-index: 223;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20224.jpg");
+}
+
+.image_224 {
+  z-index: 224;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20225.jpg");
+}
+.image_225 {
+  z-index: 225;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20226.jpg");
+}
+
+.image_226 {
+  z-index: 226;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20227.jpg");
+}
+
+.image_227 {
+  z-index: 227;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20228.jpg");
+}
+
+.image_228 {
+  z-index: 228;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20229.jpg");
+}
+
+.image_229 {
+  z-index: 229;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20230.jpg");
+}
+
+.image_230 {
+  z-index: 230;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20231.jpg");
+}
+
+.image_231 {
+  z-index: 231;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20232.jpg");
+}
+
+.image_232 {
+  z-index: 232;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20233.jpg");
+}
+
+.image_233 {
+  z-index: 233;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20234.jpg");
+}
+
+.image_234 {
+  z-index: 234;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20235.jpg");
+}
+.image_235 {
+  z-index: 235;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20236.jpg");
+}
+
+.image_236 {
+  z-index: 236;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20237.jpg");
+}
+
+.image_237 {
+  z-index: 237;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20238.jpg");
+}
+
+.image_238 {
+  z-index: 238;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20239.jpg");
+}
+
+.image_239 {
+  z-index: 239;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20240.jpg");
+}
+
+.image_240 {
+  z-index: 240;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20241.jpg");
+}
+
+.image_241 {
+  z-index: 241;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20242.jpg");
+}
+
+.image_242 {
+  z-index: 242;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20243.jpg");
+}
+
+.image_243 {
+  z-index: 243;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20244.jpg");
+}
+
+.image_244 {
+  z-index: 244;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20245.jpg");
+}
+.image_245 {
+  z-index: 245;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20246.jpg");
+}
+
+.image_246 {
+  z-index: 246;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20247.jpg");
+}
+
+.image_247 {
+  z-index: 247;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20248.jpg");
+}
+
+.image_248 {
+  z-index: 248;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20249.jpg");
+}
+
+.image_249 {
+  z-index: 249;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20250.jpg");
+}
+
+.image_250 {
+  z-index: 250;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20251.jpg");
+}
+
+.image_251 {
+  z-index: 251;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20252.jpg");
+}
+
+.image_252 {
+  z-index: 252;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20253.jpg");
+}
+
+.image_253 {
+  z-index: 253;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20254.jpg");
+}
+
+.image_254 {
+  z-index: 254;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20255.jpg");
+}
+.image_255 {
+  z-index: 255;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20256.jpg");
+}
+
+.image_256 {
+  z-index: 256;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20257.jpg");
+}
+
+.image_257 {
+  z-index: 257;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20258.jpg");
+}
+
+.image_258 {
+  z-index: 258;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20259.jpg");
+}
+
+.image_259 {
+  z-index: 259;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20260.jpg");
+}
+
+.image_260 {
+  z-index: 260;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20261.jpg");
+}
+
+.image_261 {
+  z-index: 261;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20262.jpg");
+}
+
+.image_262 {
+  z-index: 262;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20263.jpg");
+}
+
+.image_263 {
+  z-index: 263;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20264.jpg");
+}
+
+.image_264 {
+  z-index: 264;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20265.jpg");
+}
+.image_265 {
+  z-index: 265;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20266.jpg");
+}
+
+.image_266 {
+  z-index: 266;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20267.jpg");
+}
+
+.image_267 {
+  z-index: 267;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20268.jpg");
+}
+
+.image_268 {
+  z-index: 268;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20269.jpg");
+}
+
+.image_269 {
+  z-index: 269;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20270.jpg");
+}
+.image_270 {
+  z-index: 270;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20271.jpg");
+}
+.image_271 {
+  z-index: 271;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20272.jpg");
+}
+
+.image_272 {
+  z-index: 272;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20273.jpg");
+}
+
+.image_273 {
+  z-index: 273;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20274.jpg");
+}
+
+.image_274 {
+  z-index: 274;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20275.jpg");
+}
+.image_275 {
+  z-index: 275;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20276.jpg");
+}
+
+.image_276 {
+  z-index: 276;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20277.jpg");
+}
+
+.image_277 {
+  z-index: 277;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20278.jpg");
+}
+
+.image_278 {
+  z-index: 278;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20279.jpg");
+}
+
+.image_279 {
+  z-index: 279;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20280.jpg");
+}
+
+.image_280 {
+  z-index: 280;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20281.jpg");
+}
+
+.image_281 {
+  z-index: 281;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20282.jpg");
+}
+
+.image_282 {
+  z-index: 282;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20283.jpg");
+}
+
+.image_283 {
+  z-index: 283;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20284.jpg");
+}
+
+.image_284 {
+  z-index: 284;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20285.jpg");
+}
+.image_285 {
+  z-index: 285;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20286.jpg");
+}
+
+.image_286 {
+  z-index: 286;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20287.jpg");
+}
+
+.image_287 {
+  z-index: 287;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20288.jpg");
+}
+
+.image_288 {
+  z-index: 288;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20289.jpg");
+}
+
+.image_289 {
+  z-index: 289;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20290.jpg");
+}
+
+.image_290 {
+  z-index: 290;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20291.jpg");
+}
+
+.image_291 {
+  z-index: 291;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20292.jpg");
+}
+
+.image_292 {
+  z-index: 292;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20293.jpg");
+}
+
+.image_293 {
+  z-index: 293;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20294.jpg");
+}
+
+.image_294 {
+  z-index: 294;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20295.jpg");
+}
+.image_295 {
+  z-index: 295;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20296.jpg");
+}
+
+.image_296 {
+  z-index: 296;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20297.jpg");
+}
+
+.image_297 {
+  z-index: 297;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20298.jpg");
+}
+
+.image_298 {
+  z-index: 298;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20299.jpg");
+}
+
+.image_299 {
+  z-index: 299;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20200.jpg");
+}
+
+.image_300 {
+  z-index: 300;
+  background-image: url("https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/story/story%20201.jpg");
+}
+
+
+.image_visible {
+  opacity: 1;
 }
